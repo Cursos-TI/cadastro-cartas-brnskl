@@ -114,16 +114,20 @@ int main() {
 
 if ( pib1 > pib2){
     printf("Carta 1 venceu no valor do PIB!\n");
-} else {
+} else if (pib1 < pib2) {
     printf("Carta 2 venceu no valor do PIB!\n");
+} else {
+  printf("Houve um empate no valor do PIB!\n");
 }
 
 
 
 if ( pontos1 > pontos2){
     printf("Carta 1 venceu na quantidade de pontos turísticos!\n");
-} else {
+} else if (pontos1 < pontos2) {
     printf("Carta 2 venceu na quantidade de pontos turísticos!\n");
+} else {
+  printf("Houve um empate no número de pontos turísticos!\n");
 }
 
 
